@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+/* Custom CSS */
+body { 
+  background: #2B2922;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar{
+  position: relative;
+  max-width: 1050px;
+  margin: auto; 
+}
+
+.navbar {
+  display: block;
+  width: 100%;
+  padding: 20px 0 50px;
+  margin: auto;
+}
+
+.navbar::after  {
+  display: table;
+  content: ' ';
+  clear: both;
+}
+.navbar > div {
+  display: inline-block;
+  float: left;
+}
+
+.navbar > div:first-child{
+  width: 20%;
+}
+
+.navbar > div:nth-child(2){
+  width: 67%;
+}
+
+.logo {
+  width: 90px;
+}
+.list {
+  list-style: none;
+  padding: 8px 0 0;
+  text-align: right;
+}
+.list li {
+  display: inline-block;
+  text-align: right;
+  margin-right: 35px;
+}
+.list li:not(:first-child) {
+  color: #ABA9A1;
+}
+
+.button-small {
+  padding: 12px 25px;
+  border: none;
+  border: 1px solid #A08F36;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #A08F36; 
+  font-weight: 600;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero-heading {
+  display: inline-block;
+  width: 45%;
+  margin-left: 150px;
+  float: left;
+  color: #ffffff;
+  font-size: 65px;
+  line-height: 1.4;  
+}
+.hero-body {
+  display: inline-block;
+  width: 34%;
+  padding-top: 30px;
+  float: left;
+  color: #DBDAD7;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+
+ .bottom{
+  position: relative;   
+  height: 1020px;
+  margin-bottom: 120px;
+} 
+
+.bottom::before {
+  display: block;
+  position: absolute;
+  content:  ' ';
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%; 
+  height: 750px;
+  background: url('./assets/justice.jpg') no-repeat;
+  background-size: 100%; 
+} 
+
+.bottom > div  {
+  position: absolute;
+  width: 300px;
+  height: 120px;
+  bottom: -120px;
+  right: 0;
+  background: #A08F36;
+}
+
+.button-large-prev,
+.button-large-next { 
+  position: absolute;
+  content: ' ';
+  display: inline-block;
+  width: 50%;
+  height: 120px;
+  padding: 30px 60px;
+  float: left;
+  font-size: 50px;
+  font-size: 200;
+  vertical-align: middle;
+  color: #ffffff;
+  /* border: 1px solid #ffffff;
+  border-radius: 50%; */
+} 
+
+.button-large-next {
+right: 0;
+}
+.button-large-prev::before,
+.button-large-next::before {
+  display: inline-block;
+  position: absolute;
+  content: ' ';
+  width: 70px;
+  height: 70px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.button-large-prev {
+  background-color: #39372D;
+  color: #A08F36;
+  border-color: #A08F36;
+}
+
+.button-large-prev::before {
+  border-color: #A08F36;
+}
