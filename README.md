@@ -13,8 +13,8 @@
 
 ### Demo :
 
-![Web Site Image](https://github.com/anitha-nagadasarink/Restaurant-Home-Pge/blob/HTML-CSS-Projects/assets/demo.png)
+![Web Site Image](https://github.com/anitha-nagadasarink/03-Law-Home-Page/blob/HTML-CSS-Projects/assets/demo.png)
 
 ### You can Check it Live on Below Link :
 
-[Live Link !](https://new-restaurant-home-page.netlify.app/)
+[Live Link !](https://law-moder-webpage.netlify.app/)
